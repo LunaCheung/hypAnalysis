@@ -1,7 +1,20 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# GitHub Codespaces ♥️ Jupyter Notebooks @ HYP ANALYSIS
 
 Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+In this domain we do Hyp phenotype data mining and analysis. 
+```bash
+codespaces-jupyter/
+├── LICENSE
+├── README.md 
+├── data # raw pheno data
+│   └── Phenotype_Master21_22.xlsx
+├── images # result images output here
+│   └── result.png 
+├── notebooks # codes
+│   ├── classicPCA.ipynb # py notebook for classic PCA process
+│   ├── ezPCA.ipynb # py notebook for ez PCA
+│   ├── norm.ipynb # py notebook for normalization of data
+│   └── phenoNJ.ipynb # R notebook
+└── requirements.txt
+```
